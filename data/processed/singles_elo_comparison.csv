@@ -1,0 +1,5 @@
+"","discipline","elo_method","rmse","accuracy"
+"1","Men's singles","Standard Elo",0.467473395835725,0.642042637580565
+"2","Men's singles","Weighted Elo",0.467003938963413,0.643069306930693
+"3","Women's singles","Standard Elo",0.431298173984257,0.717351318209687
+"4","Women's singles","Weighted Elo",0.429994450782019,0.721200980392157
