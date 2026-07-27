@@ -1,0 +1,268 @@
+WS: Game 1 -> Game 2
+Number of matches: 2933
+
+============================================================
+Controls only
+============================================================
+
+Call:
+glm(formula = .x, family = binomial, data = model_data)
+
+Coefficients:
+                                               Estimate Std. Error z value Pr(>|z|)
+(Intercept)                                    0.045812   0.239995   0.191    0.849
+elo_difference_100                             0.532047   0.028212  18.859   <2e-16
+tournament_typeHSBC BWF World Tour Finals      1.049353   0.834817   1.257    0.209
+tournament_typeHSBC BWF World Tour Super 1000 -0.125268   0.153723  -0.815    0.415
+tournament_typeHSBC BWF World Tour Super 300   0.115724   0.106286   1.089    0.276
+tournament_typeHSBC BWF World Tour Super 500   0.017511   0.121247   0.144    0.885
+tournament_typeHSBC BWF World Tour Super 750  -0.082910   0.147391  -0.563    0.574
+roundQualification quarter final              -0.182481   0.270061  -0.676    0.499
+roundQualification round of 16                -0.113140   0.321162  -0.352    0.725
+roundQuarter final                             0.139740   0.260310   0.537    0.591
+roundRound 1                                   0.065200   1.170734   0.056    0.956
+roundRound 2                                  -1.102449   1.069233  -1.031    0.303
+roundRound 3                                  -1.511216   1.082033  -1.397    0.163
+roundRound of 16                              -0.044219   0.245930  -0.180    0.857
+roundRound of 32                              -0.009539   0.238520  -0.040    0.968
+roundSemi final                               -0.091549   0.281600  -0.325    0.745
+                                                 
+(Intercept)                                      
+elo_difference_100                            ***
+tournament_typeHSBC BWF World Tour Finals        
+tournament_typeHSBC BWF World Tour Super 1000    
+tournament_typeHSBC BWF World Tour Super 300     
+tournament_typeHSBC BWF World Tour Super 500     
+tournament_typeHSBC BWF World Tour Super 750     
+roundQualification quarter final                 
+roundQualification round of 16                   
+roundQuarter final                               
+roundRound 1                                     
+roundRound 2                                     
+roundRound 3                                     
+roundRound of 16                                 
+roundRound of 32                                 
+roundSemi final                                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 4060.3  on 2932  degrees of freedom
+Residual deviance: 3552.3  on 2917  degrees of freedom
+AIC: 3584.3
+
+Number of Fisher Scoring iterations: 4
+
+
+============================================================
+Controls + final score differential
+============================================================
+
+Call:
+glm(formula = .x, family = binomial, data = model_data)
+
+Coefficients:
+                                               Estimate Std. Error z value Pr(>|z|)
+(Intercept)                                   -0.071354   0.252671  -0.282    0.778
+final_score_diff                               0.107358   0.006317  16.996   <2e-16
+elo_difference_100                             0.385722   0.029745  12.967   <2e-16
+tournament_typeHSBC BWF World Tour Finals      1.351700   0.862239   1.568    0.117
+tournament_typeHSBC BWF World Tour Super 1000 -0.057758   0.162360  -0.356    0.722
+tournament_typeHSBC BWF World Tour Super 300   0.164855   0.114051   1.445    0.148
+tournament_typeHSBC BWF World Tour Super 500   0.018688   0.128961   0.145    0.885
+tournament_typeHSBC BWF World Tour Super 750  -0.079999   0.156076  -0.513    0.608
+roundQualification quarter final              -0.056006   0.285739  -0.196    0.845
+roundQualification round of 16                -0.053385   0.341914  -0.156    0.876
+roundQuarter final                             0.249968   0.273336   0.915    0.360
+roundRound 1                                  -0.111771   1.202281  -0.093    0.926
+roundRound 2                                  -1.565397   1.089517  -1.437    0.151
+roundRound 3                                  -1.578516   1.112152  -1.419    0.156
+roundRound of 16                               0.071606   0.258789   0.277    0.782
+roundRound of 32                               0.053964   0.250792   0.215    0.830
+roundSemi final                               -0.060288   0.294918  -0.204    0.838
+                                                 
+(Intercept)                                      
+final_score_diff                              ***
+elo_difference_100                            ***
+tournament_typeHSBC BWF World Tour Finals        
+tournament_typeHSBC BWF World Tour Super 1000    
+tournament_typeHSBC BWF World Tour Super 300     
+tournament_typeHSBC BWF World Tour Super 500     
+tournament_typeHSBC BWF World Tour Super 750     
+roundQualification quarter final                 
+roundQualification round of 16                   
+roundQuarter final                               
+roundRound 1                                     
+roundRound 2                                     
+roundRound 3                                     
+roundRound of 16                                 
+roundRound of 32                                 
+roundSemi final                                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 4060.3  on 2932  degrees of freedom
+Residual deviance: 3225.5  on 2916  degrees of freedom
+AIC: 3259.5
+
+Number of Fisher Scoring iterations: 4
+
+
+============================================================
+Controls + final score differential + maximum-streak differential
+============================================================
+
+Call:
+glm(formula = .x, family = binomial, data = model_data)
+
+Coefficients:
+                                              Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                                   -0.06784    0.25283  -0.268    0.788    
+final_score_diff                               0.10393    0.01052   9.880   <2e-16 ***
+max_streak_diff                                0.01042    0.02562   0.407    0.684    
+elo_difference_100                             0.38568    0.02974  12.968   <2e-16 ***
+tournament_typeHSBC BWF World Tour Finals      1.35319    0.86292   1.568    0.117    
+tournament_typeHSBC BWF World Tour Super 1000 -0.05637    0.16239  -0.347    0.728    
+tournament_typeHSBC BWF World Tour Super 300   0.16391    0.11408   1.437    0.151    
+tournament_typeHSBC BWF World Tour Super 500   0.01741    0.12900   0.135    0.893    
+tournament_typeHSBC BWF World Tour Super 750  -0.08265    0.15620  -0.529    0.597    
+roundQualification quarter final              -0.05601    0.28576  -0.196    0.845    
+roundQualification round of 16                -0.05517    0.34195  -0.161    0.872    
+roundQuarter final                             0.24788    0.27338   0.907    0.365    
+roundRound 1                                  -0.12669    1.20256  -0.105    0.916    
+roundRound 2                                  -1.56586    1.09000  -1.437    0.151    
+roundRound 3                                  -1.58149    1.11312  -1.421    0.155    
+roundRound of 16                               0.06932    0.25885   0.268    0.789    
+roundRound of 32                               0.05123    0.25088   0.204    0.838    
+roundSemi final                               -0.06169    0.29494  -0.209    0.834    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 4060.3  on 2932  degrees of freedom
+Residual deviance: 3225.3  on 2915  degrees of freedom
+AIC: 3261.3
+
+Number of Fisher Scoring iterations: 4
+
+
+============================================================
+Controls + final score differential + streak-bonus momentum
+============================================================
+
+Call:
+glm(formula = .x, family = binomial, data = model_data)
+
+Coefficients:
+                                               Estimate Std. Error z value Pr(>|z|)
+(Intercept)                                   -0.067171   0.252803  -0.266    0.790
+final_score_diff                               0.099889   0.018579   5.376  7.6e-08
+streak_bonus_momentum                          0.009051   0.021209   0.427    0.670
+elo_difference_100                             0.385763   0.029743  12.970  < 2e-16
+tournament_typeHSBC BWF World Tour Finals      1.347395   0.862788   1.562    0.118
+tournament_typeHSBC BWF World Tour Super 1000 -0.057812   0.162331  -0.356    0.722
+tournament_typeHSBC BWF World Tour Super 300   0.163889   0.114083   1.437    0.151
+tournament_typeHSBC BWF World Tour Super 500   0.016604   0.129047   0.129    0.898
+tournament_typeHSBC BWF World Tour Super 750  -0.082266   0.156140  -0.527    0.598
+roundQualification quarter final              -0.056664   0.285696  -0.198    0.843
+roundQualification round of 16                -0.054578   0.341880  -0.160    0.873
+roundQuarter final                             0.247548   0.273325   0.906    0.365
+roundRound 1                                  -0.120482   1.202353  -0.100    0.920
+roundRound 2                                  -1.564340   1.089755  -1.435    0.151
+roundRound 3                                  -1.580560   1.113186  -1.420    0.156
+roundRound of 16                               0.069092   0.258785   0.267    0.789
+roundRound of 32                               0.050850   0.250830   0.203    0.839
+roundSemi final                               -0.062913   0.294914  -0.213    0.831
+                                                 
+(Intercept)                                      
+final_score_diff                              ***
+streak_bonus_momentum                            
+elo_difference_100                            ***
+tournament_typeHSBC BWF World Tour Finals        
+tournament_typeHSBC BWF World Tour Super 1000    
+tournament_typeHSBC BWF World Tour Super 300     
+tournament_typeHSBC BWF World Tour Super 500     
+tournament_typeHSBC BWF World Tour Super 750     
+roundQualification quarter final                 
+roundQualification round of 16                   
+roundQuarter final                               
+roundRound 1                                     
+roundRound 2                                     
+roundRound 3                                     
+roundRound of 16                                 
+roundRound of 32                                 
+roundSemi final                                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 4060.3  on 2932  degrees of freedom
+Residual deviance: 3225.3  on 2915  degrees of freedom
+AIC: 3261.3
+
+Number of Fisher Scoring iterations: 4
+
+
+============================================================
+Controls + final score differential + adjusted late-game momentum
+============================================================
+
+Call:
+glm(formula = .x, family = binomial, data = model_data)
+
+Coefficients:
+                                               Estimate Std. Error z value Pr(>|z|)
+(Intercept)                                   -0.069689   0.252785  -0.276    0.783
+final_score_diff                               0.106972   0.006405  16.702   <2e-16
+adjusted_late_game_momentum                    0.005920   0.016749   0.353    0.724
+elo_difference_100                             0.385500   0.029745  12.960   <2e-16
+tournament_typeHSBC BWF World Tour Finals      1.350196   0.862628   1.565    0.118
+tournament_typeHSBC BWF World Tour Super 1000 -0.059140   0.162411  -0.364    0.716
+tournament_typeHSBC BWF World Tour Super 300   0.163534   0.114116   1.433    0.152
+tournament_typeHSBC BWF World Tour Super 500   0.016569   0.129125   0.128    0.898
+tournament_typeHSBC BWF World Tour Super 750  -0.081643   0.156144  -0.523    0.601
+roundQualification quarter final              -0.056128   0.285788  -0.196    0.844
+roundQualification round of 16                -0.051605   0.342000  -0.151    0.880
+roundQuarter final                             0.249832   0.273405   0.914    0.361
+roundRound 1                                  -0.099430   1.203299  -0.083    0.934
+roundRound 2                                  -1.566488   1.089487  -1.438    0.150
+roundRound 3                                  -1.569475   1.112924  -1.410    0.158
+roundRound of 16                               0.071583   0.258849   0.277    0.782
+roundRound of 32                               0.053423   0.250863   0.213    0.831
+roundSemi final                               -0.059122   0.295009  -0.200    0.841
+                                                 
+(Intercept)                                      
+final_score_diff                              ***
+adjusted_late_game_momentum                      
+elo_difference_100                            ***
+tournament_typeHSBC BWF World Tour Finals        
+tournament_typeHSBC BWF World Tour Super 1000    
+tournament_typeHSBC BWF World Tour Super 300     
+tournament_typeHSBC BWF World Tour Super 500     
+tournament_typeHSBC BWF World Tour Super 750     
+roundQualification quarter final                 
+roundQualification round of 16                   
+roundQuarter final                               
+roundRound 1                                     
+roundRound 2                                     
+roundRound 3                                     
+roundRound of 16                                 
+roundRound of 32                                 
+roundSemi final                                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 4060.3  on 2932  degrees of freedom
+Residual deviance: 3225.4  on 2915  degrees of freedom
+AIC: 3261.4
+
+Number of Fisher Scoring iterations: 4
+
+

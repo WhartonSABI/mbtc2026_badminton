@@ -1,0 +1,17 @@
+"discipline","focal_game","next_game","n_matches","momentum_definition","correlation_with_final_score_diff"
+"MS",1,2,3691,"max_streak",0.819570588699206
+"MS",1,2,3691,"score_diff",0.993551044623247
+"MS",1,2,3691,"sqrt",0.995033832571989
+"MS",1,2,3691,"time_weighted",0.991432178273543
+"MS",2,3,1302,"max_streak",0.792303173074209
+"MS",2,3,1302,"score_diff",0.992834231375786
+"MS",2,3,1302,"sqrt",0.994629012895728
+"MS",2,3,1302,"time_weighted",0.990744270888742
+"WS",1,2,2933,"max_streak",0.838390219289402
+"WS",1,2,2933,"score_diff",0.993769419790214
+"WS",1,2,2933,"sqrt",0.995061801092197
+"WS",1,2,2933,"time_weighted",0.991718230793808
+"WS",2,3,870,"max_streak",0.798920851106803
+"WS",2,3,870,"score_diff",0.992367143857978
+"WS",2,3,870,"sqrt",0.994416329897485
+"WS",2,3,870,"time_weighted",0.990136973565948

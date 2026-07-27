@@ -1,0 +1,13 @@
+"discipline","focal_game","next_game","momentum_definition_1","momentum_definition_2","correlation"
+"MS",1,2,"momentum_sqrt","momentum_score_diff",0.999201975250097
+"MS",1,2,"momentum_sqrt","momentum_time_weighted",0.996095155269298
+"MS",1,2,"momentum_score_diff","momentum_time_weighted",0.997127296768258
+"MS",2,3,"momentum_sqrt","momentum_score_diff",0.998927723892072
+"MS",2,3,"momentum_sqrt","momentum_time_weighted",0.995615871696251
+"MS",2,3,"momentum_score_diff","momentum_time_weighted",0.996744156297475
+"WS",1,2,"momentum_sqrt","momentum_score_diff",0.999301590609046
+"WS",1,2,"momentum_sqrt","momentum_time_weighted",0.996635215684799
+"WS",1,2,"momentum_score_diff","momentum_time_weighted",0.997433322177704
+"WS",2,3,"momentum_sqrt","momentum_score_diff",0.998996610644293
+"WS",2,3,"momentum_sqrt","momentum_time_weighted",0.995410027852064
+"WS",2,3,"momentum_score_diff","momentum_time_weighted",0.996549406629854

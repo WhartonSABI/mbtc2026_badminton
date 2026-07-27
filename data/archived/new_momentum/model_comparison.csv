@@ -1,0 +1,21 @@
+"discipline","focal_game","next_game","model","model_description","compared_with","n_matches","aic","log_likelihood","likelihood_ratio_p_value"
+"MS",1,2,"adjusted_late_game","Controls + final score differential + adjusted late-game momentum","final_score_diff",3691,4569.66380614467,-2264.83190307234,0.0173188034939623
+"MS",1,2,"controls_only","Controls only",NA,3691,4880.64926587903,-2422.32463293952,NA
+"MS",1,2,"final_score_diff","Controls + final score differential","controls_only",3691,4573.32758160473,-2267.66379080236,3.06896347852503e-69
+"MS",1,2,"max_streak_diff","Controls + final score differential + maximum-streak differential","final_score_diff",3691,4575.21846128897,-2267.60923064448,0.74114787483058
+"MS",1,2,"streak_bonus","Controls + final score differential + streak-bonus momentum","final_score_diff",3691,4575.29789008774,-2267.64894504387,0.863192041783704
+"MS",2,3,"adjusted_late_game","Controls + final score differential + adjusted late-game momentum","final_score_diff",1302,1770.49912890716,-865.24956445358,0.143382217628946
+"MS",2,3,"controls_only","Controls only",NA,1302,1780.21726141413,-872.108630707067,NA
+"MS",2,3,"final_score_diff","Controls + final score differential","controls_only",1302,1770.64040886225,-866.320204431125,0.000667778745467607
+"MS",2,3,"max_streak_diff","Controls + final score differential + maximum-streak differential","final_score_diff",1302,1772.12506232091,-866.062531160455,0.472833493813711
+"MS",2,3,"streak_bonus","Controls + final score differential + streak-bonus momentum","final_score_diff",1302,1771.89060120339,-865.945300601696,0.386537133944368
+"WS",1,2,"adjusted_late_game","Controls + final score differential + adjusted late-game momentum","final_score_diff",2933,3261.38790952147,-1612.69395476073,0.723698223048739
+"WS",1,2,"controls_only","Controls only",NA,2933,3584.31432508815,-1776.15716254407,NA
+"WS",1,2,"final_score_diff","Controls + final score differential","controls_only",2933,3259.51288630297,-1612.75644315149,4.78022569085803e-73
+"WS",1,2,"max_streak_diff","Controls + final score differential + maximum-streak differential","final_score_diff",2933,3261.34734052272,-1612.67367026136,0.684101139105715
+"WS",1,2,"streak_bonus","Controls + final score differential + streak-bonus momentum","final_score_diff",2933,3261.3298016791,-1612.66490083955,0.668735656086421
+"WS",2,3,"adjusted_late_game","Controls + final score differential + adjusted late-game momentum","final_score_diff",870,1142.23189465342,-553.115947326712,0.433430103295606
+"WS",2,3,"controls_only","Controls only",NA,870,1154.862445735,-561.431222867498,NA
+"WS",2,3,"final_score_diff","Controls + final score differential","controls_only",870,1140.84550920809,-553.422754604047,6.27783704272568e-05
+"WS",2,3,"max_streak_diff","Controls + final score differential + maximum-streak differential","final_score_diff",870,1142.7429376569,-553.371468828452,0.748765226991951
+"WS",2,3,"streak_bonus","Controls + final score differential + streak-bonus momentum","final_score_diff",870,1142.66745213787,-553.333726068937,0.673048307976755
