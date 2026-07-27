@@ -1,0 +1,9 @@
+"discipline","focal_game","next_game","measure","raw_correlation_with_final_score","adjusted_correlation_with_final_score"
+"WS",1,2,"Maximum streak",0.838390219289402,-0.0147175143729328
+"WS",1,2,"Square-root streak bonus",0.948125036263811,-0.0784515332871089
+"WS",2,3,"Maximum streak",0.798920851106803,0.012632402583667
+"WS",2,3,"Square-root streak bonus",0.940242608826806,-0.0367537361795276
+"MS",1,2,"Maximum streak",0.819553650648864,-0.0504964310090802
+"MS",1,2,"Square-root streak bonus",0.946814137783511,-0.107116846082739
+"MS",2,3,"Maximum streak",0.792303173074209,-0.0769091334286305
+"MS",2,3,"Square-root streak bonus",0.940735835593053,-0.117722860931657
